@@ -26,7 +26,7 @@ function AddTransaction() {
       <h3>Add new transaction</h3>
       <form onSubmit={submit}>
         <div className="form-control">
-          <label htmlFor="text">Text</label>
+          <label htmlFor="text">Enter Transaction</label>
           <input
             type="text"
             value={text}
